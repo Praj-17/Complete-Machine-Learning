@@ -1,0 +1,13 @@
+accuracy on test set:  0.9415204678362573
+                           94 % 
+confusion matrix:
+                   0     1
+ (AC             (Predicted)
+   TU        0      59    3
+    AL)      1      7    102
+ 
+       Prescision   recall   f1-score   support
+   0     0.89        0.95     0.92       62
+
+   1     0.97        0.94     0.95       109
+  

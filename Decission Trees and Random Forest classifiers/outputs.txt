@@ -1,0 +1,33 @@
+For Decission Tree
+Accuracy on test set (DT):  0.9736842105263158
+confusion matrix
+                        (Predicted)                   # 0 -Setosa
+                      0      1      2                 # 1 -versicolor
+                                                      # 2 -virginica
+    (Actual)   0      15     0      0
+               1      0      8      0
+               2      0      1     14
+Classification Report
+              precision   recall   f1-score   support
+     0           1.00      1.00      1.00        15
+     1           0.89      1.00      0.94         8
+     2           1.00      0.93      0.97        15
+
+#Random Forest Classifier
+
+Accuracy on test set (RF):  0.9736842105263158
+
+Classification Report
+                precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        15
+           1       0.89      1.00      0.94         8
+           2       1.00      0.93      0.97        15
+
+confusion matrix
+                  (Predicted)                         # 0 -Setosa
+                 0      1      2                      # 1 -versicolor
+                                                      # 2 -virginica
+(Actual) 0       15     0      0
+         1       0      8      0
+         2       0      1     14
